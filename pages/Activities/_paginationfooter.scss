@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    padding: 10px 0;
+  &__pagination {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__pagination-number {
+    font-size: 13px;
+    color: $grey-2;
+    flex: 1;
+    text-align: center;
+  }
+  &__page-count {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: $grey-1;
+  }
+}

@@ -1,0 +1,101 @@
+.customers {
+  &__search-icon {
+    left: 10px;
+    position: absolute;
+  }
+  &__btn {
+    background-color: $primary;
+    min-height: 100%;
+    color: $primary-white;
+    margin-right: 20px;
+    align-self: stretch;
+    padding: 0 10px;
+    @media (max-width: $breakpoint-xs-max) {
+      margin-top: 10px
+    }
+  }
+  &__search-input {
+    background-color: $light-purple-1;
+    @media (max-width: $breakpoint-xs-max) {
+      margin-top: 10px;
+    }
+  }
+  &__view-all {
+    font-size: 15px;
+  }
+}
+
+.customers .q-placeholder {
+  // move the placeholder to the right to accomodate the absolutely positioned magnifying glass
+  padding-left: 25px;
+}
+
+// container of customers and view all text
+.customers .q-table-control {
+  display: flex;
+  align-items: center;
+}
+
+.customers .q-table__top {
+  // padding: 16px;
+  margin-bottom: 30px;
+  background-color: $primary-white;
+  border-radius: 12px 12px 0px 0px;
+  border-bottom: 1px solid $grey-5;
+  position: relative;
+  padding: 0 16px;
+  @media (max-width: $breakpoint-xs-max) {
+    padding: 0 5px;
+  } 
+}
+
+.customers .q-tab {
+  height: 65px;
+}
+
+// increase thickness of tab indicator
+.customers .q-tab__indicator {
+  border-bottom: 3px solid;
+}
+
+.customers .q-table > thead > tr:first-child {
+  background-color: $blue-color-dark-1;
+  color: $primary-white;
+}
+
+// removing the icon on the table header
+.customers .q-table__sort-icon {
+  display: none;
+}
+
+// the heading of the table
+.customers .q-table > thead > tr > th,
+.customers .q-table > tbody > tr > td {
+  text-align: left;
+  font-size: 15px;
+}
+
+.customers .q-table > thead > tr > th {
+  &:not(:first-child) {
+    border-left: 1px solid $grey-3;
+  }
+}
+
+.customers .q-checkbox__bg {
+  color: $grey-4;
+  height: 15px;
+  width: 15px;
+}
+
+.customers .q-table > tbody > tr > td {
+  // controls the background-color of the rows of the table
+  background-color: $primary-white;
+  border-bottom: 1px solid #52F1EC;
+}
+
+.customers .q-table__bottom {
+  // put styles for table footer
+  background-color: $primary-white;
+  // remove the border top that is interferring with border bottom of td above
+  border-top: none;
+}

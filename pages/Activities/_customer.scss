@@ -1,0 +1,109 @@
+.customer {
+  &__status-indicator-container {
+    margin-left: 44px;
+  }
+  &__status {
+    &--inner, &--outer {
+      border-radius: 100%;
+     
+    }
+    &--inner {
+      width: .9rem;
+      height: .9rem;
+      border: 1px solid $primary-white;
+      & .bg-red{
+        background-color: $red-color-dark-1;
+      }
+      & .bg-green {
+        background-color: $green-3;
+      }
+    }
+    &--outer {
+      background-color: $primary-white;
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid $grey-2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 7px;
+    } 
+  }
+  &__btn-container {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+  }
+  &__btn {
+    background-color: $primary;
+    color: $primary-white;    
+    padding: 7px 10px;
+    margin-left: auto;
+    border-radius: 8px;
+    grid-column: 1/ -1;
+    margin-top: -32px;
+    @media (max-width: $breakpoint-xs-max) {
+      font-size: 13px;
+      padding: 0 5px;
+    }
+  }
+  &__text {
+    font-size: 15px;
+    margin-bottom: 0;
+    color: $grey-1;
+  }
+  &__number {
+    font-size: 2rem;
+  }
+  &__icon-container {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;;
+  }
+  &__icon {
+    height: 30px;
+    width: 30px;
+  }
+  &__bg-blue {
+    background-color: $bg-blue-1;
+  }
+  &__bg-green {
+    background-color: $bg-green-1;
+  }
+  &__activity-container {
+    padding: 25px;
+    @media (max-width: $breakpoint-xs-max) {
+      padding: 5px;
+    }
+  }
+  &__activity-heading {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  &__activity {
+    font-size: 16px;
+    margin-bottom: 0;
+    color: $grey-1;
+  }
+  &__activity-name, &__activity-action,
+  &__activity-time {
+    margin-bottom: 0;
+  }
+  &__activity-action {
+    color: $primary;
+    margin: 0 5px 0 5px
+  }
+  &__activity-name {
+    font-weight: 600;
+    color: $dark;
+  }
+  &__activity-time {
+    color: $primary;
+    font-size: 16px;
+  }
+}
