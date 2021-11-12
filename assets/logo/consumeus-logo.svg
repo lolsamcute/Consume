@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145.546" height="31" viewBox="0 0 145.546 31">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.178" y1="0.969" x2="0.688" y2="0.372" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#82d7f3"/>
+      <stop offset="1" stop-color="#c2ebf4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_15932" data-name="Group 15932" transform="translate(-772 -2306)">
+    <g id="PEEP_logo" data-name="PEEP logo" transform="translate(791.127 2310.855) rotate(-3)">
+      <g id="Layer_6" data-name="Layer 6" transform="translate(3.332 13.746)">
+        <path id="Path_1" data-name="Path 1" d="M21.817,0C21.223,13.664,6.23,14.793,0,7.337a12.731,12.731,0,0,0,9.265,4.221A12.354,12.354,0,0,0,21.817,0Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Layer_5" data-name="Layer 5" transform="translate(0 0)">
+        <path id="Path_2" data-name="Path 2" d="M12.6.012a12.543,12.543,0,0,1,12.6,12.869A12.382,12.382,0,0,1,12.6,25.3C5.882,25.3,0,19.423,0,12.9A12.466,12.466,0,0,1,12.6.012Z" transform="translate(0)" fill="#5064cc"/>
+      </g>
+      <g id="Layer_4" data-name="Layer 4" transform="translate(0.115 1.056)">
+        <path id="Path_3" data-name="Path 3" d="M10.743.065C15.8-.456,20.451,2.188,22.087,6.19c2.5,5.379,1.061,10.613-4.593,12.839C10.43,21.6,4.654,19.3,2.734,17.881S-.154,14.958.02,11.827,4.166,1,10.743.065Z" transform="translate(0 0)" fill="#52f1ec"/>
+      </g>
+      <g id="Layer_3" data-name="Layer 3" transform="translate(7.225 7.245)">
+        <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="5.375" cy="5.375" rx="5.375" ry="5.375" fill="#011a35"/>
+      </g>
+      <g id="Layer_2" data-name="Layer 2" transform="translate(13.12 9.04)">
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="1.451" cy="1.451" r="1.451" fill="#fff"/>
+      </g>
+    </g>
+    <text id="NSUM.US" transform="translate(817.546 2329)" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="600"><tspan x="0" y="0">NSUM.US</tspan></text>
+    <text id="C" transform="translate(772 2329)" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="600"><tspan x="0" y="0">C</tspan></text>
+  </g>
+</svg>

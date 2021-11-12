@@ -1,0 +1,40 @@
+import Vue from 'vue';
+import FlatCard from '../components/Commons/FlatCard';
+import CardHead from '../components/Commons/CardHead';
+import Select from '../components/App/Form/Select';
+import SelectCheckbox from '../components/App/Form/SelectCheckbox';
+import PageNavBack from '../components/App/Layout/PageNavBack';
+import PageIntroHead from '../components/Commons/PageIntroHead';
+import PageIntroLeading from '../components/Commons/PageIntroLeading';
+
+import AppInput from '../components/Commons/AppInput';
+import AppButton from '../components/Commons/AppButton';
+import AppInputBox from '../components/Commons/AppInputBox';
+import AppRadio from '../components/Commons/AppRadio';
+import AppDialog from '../components/Commons/AppDialog';
+import ConfirmationDialog from '../components/Commons/ConfirmationDialog';
+import AppTabs from '../components/Commons/Tabs';
+import AppSectionTitle from '../components/Commons/AppSectionTitle.vue';
+import AppLogEntry from '../components/Commons/AppLogEntry.vue';
+import StatusIndicator from '../components/Commons/StatusIndicator.vue';
+import RightSidebarDialog from '../components/App/Layout/RightSidebarDialog';
+
+Vue.component('AppBtn', AppButton);
+Vue.component('AppInput', AppInput);
+Vue.component('AppInputBox', AppInputBox);
+Vue.component('AppRadio', AppRadio);
+Vue.component('AppDialog', AppDialog);
+Vue.component('ConfirmationDialog', ConfirmationDialog);
+Vue.component('RightSidebarDialog', RightSidebarDialog);
+Vue.component('AppTabs', AppTabs);
+Vue.component('AppSectionTitle', AppSectionTitle);
+Vue.component('AppLogEntry', AppLogEntry);
+
+Vue.component('FlatCard', FlatCard);
+Vue.component('CardHead', CardHead);
+Vue.component('AppSelect', Select);
+Vue.component('AppSelectCheckbox', SelectCheckbox);
+Vue.component('PageNavBack', PageNavBack);
+Vue.component('PageIntroHead', PageIntroHead);
+Vue.component('PageIntroLeading', PageIntroLeading);
+Vue.component('StatusIndicator', StatusIndicator);
