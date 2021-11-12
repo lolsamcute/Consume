@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - yarn
+  build:
+    commands:
+      - yarn global add @quasar/cli
+      - quasar build
+
+artifacts:
+  files:
+    - '**/*'
+  discard-paths: no
+  base-directory: dist/spa
