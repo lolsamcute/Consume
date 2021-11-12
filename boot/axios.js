@@ -2,7 +2,7 @@ import { boot } from 'quasar/wrappers';
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://authentication-dev.bmgames.net/v1/auth/',
+  baseURL: '',
 });
 
 export default boot(({ Vue }) => {
